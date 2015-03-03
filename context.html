@@ -1,0 +1,17 @@
+<head>
+  <meta charset="UTF-8">
+  <script src="include/address.js"></script>
+</head>
+<body>
+  <p>
+    <select id="city" name="city"></select>
+    <select id="dist" name="dist"></select>
+    <input type="text" size="5" id="zip" name="zip" />-<input type="text" size="5" id="zip1" name="zip1" />
+  </p>
+  <p>
+    <input type="text" id="address" name="address" />
+  <script>
+    new Address('city', 'dist', 'zip', 'zip1', 'address');
+  </script>
+</body>
+
