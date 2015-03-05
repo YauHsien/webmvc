@@ -3,6 +3,7 @@
   <script src="include/address.js"></script>
 </head>
 <body>
+  <p>地址 1</p>
   <p>
     <select id="city" name="city"></select>
     <select id="dist" name="dist"></select>
@@ -10,8 +11,19 @@
   </p>
   <p>
     <input type="text" id="address" name="address" />
+  </p>
+  <p>地址 2</p>
+  <p>
+    <select id="city2" name="city2"></select>
+    <select id="dist2" name="dist2"></select>
+    <input type="text" size="5" id="zip2" name="zip2" />-<input type="text" size="5" id="zip21" name="zip21" />
+  </p>
+  <p>
+    <input type="text" id="address2" name="address2" />
+  </p>
   <script>
     new Address('city', 'dist', 'zip', 'zip1', 'address');
+    new Address('city2', 'dist2', 'zip2', 'zip21', 'address2');
   </script>
 </body>
 
